@@ -1,0 +1,10 @@
+npx create-expo-app MyNewProject
+cd MyNewProject
+npx expo start
+npm run android   # For Android development
+npm run ios       # For iOS development (requires macOS)
+npm run web       # For web development
+
+
+to update an existing project to use the new local Expo CLI :
+npm install expo
